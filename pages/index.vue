@@ -9,6 +9,16 @@
         <a target="_blank" href="https://medium.com/tower-token"><img src="~/assets/img/medium.png" class="h-12 w-12 mt-1 transform hover:scale-110" alt="discord icon"></a>
       </div>
 
+      <div class="absolute bottom-0 left-0 ml-6 mb-4">
+        <a target="_blank" href="https://github.com/AntonioIvanov/cdh-xp-calculator">
+        <div class="hidden md:flex justify-center items-center transform hover:scale-110">
+          <img src="~/assets/img/github.svg" class="h-10 w-auto mt-1" alt="discord icon">
+          <p class="text-black text-sm pl-2">/AntonioIvanov/cdh-xp-calculator</p>
+        </div>
+        </a>
+        
+      </div>
+
       <div class="relative w-auto h-20 flex items-center justify-center">
         <img src="~/assets/img/banner.png" class="h-20 w-auto" alt="banner">
         <h1 class="absolute main-text pb-1">Crazy Defense Heroes</h1>
