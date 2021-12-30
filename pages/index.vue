@@ -104,7 +104,7 @@
         </button>
       </div>
       <div class="w-full flex flex-col space-y-2 pt-6">
-        <p class="text-white">You have to reach level {{levelToReach}} and earn {{xpLeft}}XP on that level</p>
+        <p class="text-white">You have to reach level {{levelToReach}} and earn {{xpLeft}} on that level</p>
         <div class="flex items-center relative">
           <div class="w-full border py-1 rounded-md relative">
             <p class="text-white relative font-bold pl-3 top">
@@ -117,6 +117,9 @@
           {{progress}}
         </p>
         <p class="text-white text-sm">You have until {{date}}, to reach your goal level</p>
+        <p class="text-white">Testing</p>
+        <p class="text-white">{{levelToReach}}</p>
+        <p class="text-white">{{xpLeft}}</p>
       </div>
     </div>
   </div>
