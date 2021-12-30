@@ -104,11 +104,11 @@
         </button>
       </div>
       <div class="w-full flex flex-col space-y-2 pt-6">
-        <p class="text-white">You have to reach level {{data.levelToReach}} and earn {{data.xpLeft}}XP on that level</p>
+        <p class="text-white">You have to reach level {{levelToReach}} and earn {{xpLeft}}XP on that level</p>
         <div class="flex items-center relative">
           <div class="w-full border py-1 rounded-md relative">
             <p class="text-white relative font-bold pl-3 top">
-              Lvl. {{data.levelToReach}}
+              Lvl. {{levelToReach}}
             </p>
             <div class="h-full progress-bar absolute top-0 rounded-md" :style="`width:${xpBar}`"></div>
           </div>
@@ -325,7 +325,15 @@
         const month = this.months[currentMonth];
         const date = `${month} ${lastDay}`;
         return date
-      }
+      },
+      levelToReach() {
+        const data = this.data;
+        return data.levelToReach
+      },
+      xpLeft() {
+        const data = this.data;
+        return data.xpLeft
+      },
     },
     methods: {
       calculate() {
